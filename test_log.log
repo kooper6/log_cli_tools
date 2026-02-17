@@ -1,0 +1,100 @@
+{"id":"7d78a9c1","timestamp":"2026-02-17T22:30:01Z","level":"ERROR","request_id":"req-8f2a","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"9b2e1f44","timestamp":"2026-02-17T22:30:02Z","level":"INFO","request_id":"req-1a2b","message":"User(id=501) logged in from 192.168.1.15"}
+{"id":"3c4d5e6f","timestamp":"2026-02-17T22:30:03Z","level":"WARN","request_id":"req-9c8d","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x1a"}
+{"id":"a1b2c3d4","timestamp":"2026-02-17T22:30:04Z","level":"DEBUG","request_id":"req-4e5f","message":"Memory cache hit for key: session_9001"}
+{"id":"e5f6g7h8","timestamp":"2026-02-17T22:30:05Z","level":"INFO","request_id":"req-2b3c","message":"Worker #1: Job 'EmailSync' completed in 450ms"}
+{"id":"i9j0k1l2","timestamp":"2026-02-17T22:30:06Z","level":"ERROR","request_id":"req-8f2b","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"m3n4o5p6","timestamp":"2026-02-17T22:30:07Z","level":"INFO","request_id":"req-1a2c","message":"User(id=212) logged in from 192.168.1.88"}
+{"id":"q7r8s9t0","timestamp":"2026-02-17T22:30:08Z","level":"WARN","request_id":"req-9c8e","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x2b"}
+{"id":"u1v2w3x4","timestamp":"2026-02-17T22:30:09Z","level":"DEBUG","request_id":"req-4e60","message":"Memory cache hit for key: session_4432"}
+{"id":"y5z6a7b8","timestamp":"2026-02-17T22:30:10Z","level":"INFO","request_id":"req-2b3d","message":"Worker #14: Job 'DataExport' completed in 120ms"}
+{"id":"c9d0e1f2","timestamp":"2026-02-17T22:30:11Z","level":"ERROR","request_id":"req-8f2c","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"g3h4i5j6","timestamp":"2026-02-17T22:30:12Z","level":"INFO","request_id":"req-1a2d","message":"User(id=883) logged in from 192.168.1.102"}
+{"id":"k7l8m9n0","timestamp":"2026-02-17T22:30:13Z","level":"WARN","request_id":"req-9c8f","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x3c"}
+{"id":"o1p2q3r4","timestamp":"2026-02-17T22:30:14Z","level":"DEBUG","request_id":"req-4e61","message":"Memory cache hit for key: session_1229"}
+{"id":"s5t6u7v8","timestamp":"2026-02-17T22:30:15Z","level":"INFO","request_id":"req-2b3e","message":"Worker #9: Job 'ImageResize' completed in 310ms"}
+{"id":"w9x0y1z2","timestamp":"2026-02-17T22:30:16Z","level":"ERROR","request_id":"req-8f2d","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"a3b4c5d6","timestamp":"2026-02-17T22:30:17Z","level":"INFO","request_id":"req-1a2e","message":"User(id=441) logged in from 192.168.1.19"}
+{"id":"e7f8g9h0","timestamp":"2026-02-17T22:30:18Z","level":"WARN","request_id":"req-9c90","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x4d"}
+{"id":"i1j2k3l4","timestamp":"2026-02-17T22:30:19Z","level":"DEBUG","request_id":"req-4e62","message":"Memory cache hit for key: session_8871"}
+{"id":"m5n6o7p8","timestamp":"2026-02-17T22:30:20Z","level":"INFO","request_id":"req-2b3f","message":"Worker #2: Job 'Cleanup' completed in 89ms"}
+{"id":"q9r0s1t2","timestamp":"2026-02-17T22:30:21Z","level":"ERROR","request_id":"req-8f2e","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"u3v4w5x6","timestamp":"2026-02-17T22:30:22Z","level":"INFO","request_id":"req-1a2f","message":"User(id=102) logged in from 192.168.1.44"}
+{"id":"y7z8a9b0","timestamp":"2026-02-17T22:30:23Z","level":"WARN","request_id":"req-9c91","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x1a"}
+{"id":"c1d2e3f4","timestamp":"2026-02-17T22:30:24Z","level":"DEBUG","request_id":"req-4e63","message":"Memory cache hit for key: session_3321"}
+{"id":"g5h6i7j8","timestamp":"2026-02-17T22:30:25Z","level":"INFO","request_id":"req-2b40","message":"Worker #5: Job 'EmailSync' completed in 412ms"}
+{"id":"k9l0m1n2","timestamp":"2026-02-17T22:30:26Z","level":"ERROR","request_id":"req-8f2f","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"o3p4q5r6","timestamp":"2026-02-17T22:30:27Z","level":"INFO","request_id":"req-1a30","message":"User(id=94) logged in from 192.168.1.12"}
+{"id":"s7t8u9v0","timestamp":"2026-02-17T22:30:28Z","level":"WARN","request_id":"req-9c92","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x2b"}
+{"id":"w1x2y3z4","timestamp":"2026-02-17T22:30:29Z","level":"DEBUG","request_id":"req-4e64","message":"Memory cache hit for key: session_1109"}
+{"id":"a5b6c7d8","timestamp":"2026-02-17T22:30:30Z","level":"INFO","request_id":"req-2b41","message":"Worker #19: Job 'DataExport' completed in 150ms"}
+{"id":"e9f0g1h2","timestamp":"2026-02-17T22:30:31Z","level":"ERROR","request_id":"req-8f30","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"i3j4k5l6","timestamp":"2026-02-17T22:30:32Z","level":"INFO","request_id":"req-1a31","message":"User(id=662) logged in from 192.168.1.33"}
+{"id":"m7n8o9p0","timestamp":"2026-02-17T22:30:33Z","level":"WARN","request_id":"req-9c93","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x3c"}
+{"id":"q1r2s3t4","timestamp":"2026-02-17T22:30:34Z","level":"DEBUG","request_id":"req-4e65","message":"Memory cache hit for key: session_7712"}
+{"id":"u5v6w7x8","timestamp":"2026-02-17T22:30:35Z","level":"INFO","request_id":"req-2b42","message":"Worker #3: Job 'ImageResize' completed in 290ms"}
+{"id":"y9z0a1b2","timestamp":"2026-02-17T22:30:36Z","level":"ERROR","request_id":"req-8f31","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"c3d4e5f6","timestamp":"2026-02-17T22:30:37Z","level":"INFO","request_id":"req-1a32","message":"User(id=55) logged in from 192.168.1.99"}
+{"id":"g7h8i9j0","timestamp":"2026-02-17T22:30:38Z","level":"WARN","request_id":"req-9c94","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x4d"}
+{"id":"k1l2m3n4","timestamp":"2026-02-17T22:30:39Z","level":"DEBUG","request_id":"req-4e66","message":"Memory cache hit for key: session_2210"}
+{"id":"o5p6q7r8","timestamp":"2026-02-17T22:30:40Z","level":"INFO","request_id":"req-2b43","message":"Worker #10: Job 'Cleanup' completed in 95ms"}
+{"id":"s9t0u1v2","timestamp":"2026-02-17T22:30:41Z","level":"ERROR","request_id":"req-8f32","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"w3x4y5z6","timestamp":"2026-02-17T22:30:42Z","level":"INFO","request_id":"req-1a33","message":"User(id=19) logged in from 192.168.1.201"}
+{"id":"a7b8c9d0","timestamp":"2026-02-17T22:30:43Z","level":"WARN","request_id":"req-9c95","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x1a"}
+{"id":"e1f2g3h4","timestamp":"2026-02-17T22:30:44Z","level":"DEBUG","request_id":"req-4e67","message":"Memory cache hit for key: session_5564"}
+{"id":"i5j6k7l8","timestamp":"2026-02-17T22:30:45Z","level":"INFO","request_id":"req-2b44","message":"Worker #11: Job 'EmailSync' completed in 444ms"}
+{"id":"m9n0o1p2","timestamp":"2026-02-17T22:30:46Z","level":"ERROR","request_id":"req-8f33","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"q3r4s5t6","timestamp":"2026-02-17T22:30:47Z","level":"INFO","request_id":"req-1a34","message":"User(id=712) logged in from 192.168.1.155"}
+{"id":"u7v8w9x0","timestamp":"2026-02-17T22:30:48Z","level":"WARN","request_id":"req-9c96","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x2b"}
+{"id":"y1z2a3b4","timestamp":"2026-02-17T22:30:49Z","level":"DEBUG","request_id":"req-4e68","message":"Memory cache hit for key: session_9901"}
+{"id":"c5d6e7f8","timestamp":"2026-02-17T22:30:50Z","level":"INFO","request_id":"req-2b45","message":"Worker #7: Job 'DataExport' completed in 133ms"}
+{"id":"g9h0i1j2","timestamp":"2026-02-17T22:30:51Z","level":"ERROR","request_id":"req-8f34","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"k3l4m5n6","timestamp":"2026-02-17T22:30:52Z","level":"INFO","request_id":"req-1a35","message":"User(id=303) logged in from 192.168.1.20"}
+{"id":"o7p8q9r0","timestamp":"2026-02-17T22:30:53Z","level":"WARN","request_id":"req-9c97","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x3c"}
+{"id":"s1t2u3v4","timestamp":"2026-02-17T22:30:54Z","level":"DEBUG","request_id":"req-4e69","message":"Memory cache hit for key: session_1122"}
+{"id":"w5x6y7z8","timestamp":"2026-02-17T22:30:55Z","level":"INFO","request_id":"req-2b46","message":"Worker #2: Job 'ImageResize' completed in 320ms"}
+{"id":"a9b0c1d2","timestamp":"2026-02-17T22:30:56Z","level":"ERROR","request_id":"req-8f35","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"e3f4g5h6","timestamp":"2026-02-17T22:30:57Z","level":"INFO","request_id":"req-1a36","message":"User(id=404) logged in from 192.168.1.41"}
+{"id":"i7j8k9l0","timestamp":"2026-02-17T22:30:58Z","level":"WARN","request_id":"req-9c98","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x4d"}
+{"id":"m1n2o3p4","timestamp":"2026-02-17T22:30:59Z","level":"DEBUG","request_id":"req-4e70","message":"Memory cache hit for key: session_6651"}
+{"id":"q5r6s7t8","timestamp":"2026-02-17T22:31:00Z","level":"INFO","request_id":"req-2b47","message":"Worker #4: Job 'Cleanup' completed in 101ms"}
+{"id":"u9v0w1x2","timestamp":"2026-02-17T22:31:01Z","level":"ERROR","request_id":"req-8f36","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"y3z4a5b6","timestamp":"2026-02-17T22:31:02Z","level":"INFO","request_id":"req-1a37","message":"User(id=11) logged in from 192.168.1.10"}
+{"id":"c7d8e9f0","timestamp":"2026-02-17T22:31:03Z","level":"WARN","request_id":"req-9c99","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x1a"}
+{"id":"g1h2i3j4","timestamp":"2026-02-17T22:31:04Z","level":"DEBUG","request_id":"req-4e71","message":"Memory cache hit for key: session_3321"}
+{"id":"k5l6m7n8","timestamp":"2026-02-17T22:31:05Z","level":"INFO","request_id":"req-2b48","message":"Worker #8: Job 'EmailSync' completed in 430ms"}
+{"id":"o9p0q1r2","timestamp":"2026-02-17T22:31:06Z","level":"ERROR","request_id":"req-8f37","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"s3t4u5v6","timestamp":"2026-02-17T22:31:07Z","level":"INFO","request_id":"req-1a38","message":"User(id=99) logged in from 192.168.1.77"}
+{"id":"w7x8y9z0","timestamp":"2026-02-17T22:31:08Z","level":"WARN","request_id":"req-9ca0","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x2b"}
+{"id":"a1b2c3d4","timestamp":"2026-02-17T22:31:09Z","level":"DEBUG","request_id":"req-4e72","message":"Memory cache hit for key: session_9091"}
+{"id":"e5f6g7h8","timestamp":"2026-02-17T22:31:10Z","level":"INFO","request_id":"req-2b49","message":"Worker #12: Job 'DataExport' completed in 138ms"}
+{"id":"i9j0k1l2","timestamp":"2026-02-17T22:31:11Z","level":"ERROR","request_id":"req-8f38","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"m3n4o5p6","timestamp":"2026-02-17T22:31:12Z","level":"INFO","request_id":"req-1a39","message":"User(id=551) logged in from 192.168.1.18"}
+{"id":"q7r8s9t0","timestamp":"2026-02-17T22:31:13Z","level":"WARN","request_id":"req-9ca1","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x3c"}
+{"id":"u1v2w3x4","timestamp":"2026-02-17T22:31:14Z","level":"DEBUG","request_id":"req-4e73","message":"Memory cache hit for key: session_4451"}
+{"id":"y5z6a7b8","timestamp":"2026-02-17T22:31:15Z","level":"INFO","request_id":"req-2b50","message":"Worker #3: Job 'ImageResize' completed in 302ms"}
+{"id":"c9d0e1f2","timestamp":"2026-02-17T22:31:16Z","level":"ERROR","request_id":"req-8f39","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"g3h4i5j6","timestamp":"2026-02-17T22:31:17Z","level":"INFO","request_id":"req-1a40","message":"User(id=22) logged in from 192.168.1.91"}
+{"id":"k7l8m9n0","timestamp":"2026-02-17T22:31:18Z","level":"WARN","request_id":"req-9ca2","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x4d"}
+{"id":"o1p2q3r4","timestamp":"2026-02-17T22:31:19Z","level":"DEBUG","request_id":"req-4e74","message":"Memory cache hit for key: session_8891"}
+{"id":"s5t6u7v8","timestamp":"2026-02-17T22:31:20Z","level":"INFO","request_id":"req-2b51","message":"Worker #6: Job 'Cleanup' completed in 92ms"}
+{"id":"w9x0y1z2","timestamp":"2026-02-17T22:31:21Z","level":"ERROR","request_id":"req-8f40","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"a3b4c5d6","timestamp":"2026-02-17T22:31:22Z","level":"INFO","request_id":"req-1a41","message":"User(id=118) logged in from 192.168.1.55"}
+{"id":"e7f8g9h0","timestamp":"2026-02-17T22:31:23Z","level":"WARN","request_id":"req-9ca3","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x1a"}
+{"id":"i1j2k3l4","timestamp":"2026-02-17T22:31:24Z","level":"DEBUG","request_id":"req-4e75","message":"Memory cache hit for key: session_1220"}
+{"id":"m5n6o7p8","timestamp":"2026-02-17T22:31:25Z","level":"INFO","request_id":"req-2b52","message":"Worker #15: Job 'EmailSync' completed in 455ms"}
+{"id":"q9r0s1t2","timestamp":"2026-02-17T22:31:26Z","level":"ERROR","request_id":"req-8f41","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"u3v4w5x6","timestamp":"2026-02-17T22:31:27Z","level":"INFO","request_id":"req-1a42","message":"User(id=81) logged in from 192.168.1.3"}
+{"id":"y7z8a9b0","timestamp":"2026-02-17T22:31:28Z","level":"WARN","request_id":"req-9ca4","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x2b"}
+{"id":"c1d2e3f4","timestamp":"2026-02-17T22:31:29Z","level":"DEBUG","request_id":"req-4e76","message":"Memory cache hit for key: session_4411"}
+{"id":"g5h6i7j8","timestamp":"2026-02-17T22:31:30Z","level":"INFO","request_id":"req-2b53","message":"Worker #20: Job 'DataExport' completed in 142ms"}
+{"id":"k9l0m1n2","timestamp":"2026-02-17T22:31:31Z","level":"ERROR","request_id":"req-8f42","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"o3p4q5r6","timestamp":"2026-02-17T22:31:32Z","level":"INFO","request_id":"req-1a43","message":"User(id=45) logged in from 192.168.1.1"}
+{"id":"s7t8u9v0","timestamp":"2026-02-17T22:31:33Z","level":"WARN","request_id":"req-9ca5","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x3c"}
+{"id":"w1x2y3z4","timestamp":"2026-02-17T22:31:34Z","level":"DEBUG","request_id":"req-4e77","message":"Memory cache hit for key: session_6781"}
+{"id":"a5b6c7d8","timestamp":"2026-02-17T22:31:35Z","level":"INFO","request_id":"req-2b54","message":"Worker #1: Job 'ImageResize' completed in 299ms"}
+{"id":"e9f0g1h2","timestamp":"2026-02-17T22:31:36Z","level":"ERROR","request_id":"req-8f43","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
+{"id":"i3j4k5l6","timestamp":"2026-02-17T22:31:37Z","level":"INFO","request_id":"req-1a44","message":"User(id=901) logged in from 192.168.1.25"}
+{"id":"m7n8o9p0","timestamp":"2026-02-17T22:31:38Z","level":"WARN","request_id":"req-9ca6","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x4d"}
+{"id":"q1r2s3t4","timestamp":"2026-02-17T22:31:39Z","level":"DEBUG","request_id":"req-4e78","message":"Memory cache hit for key: session_5541"}
+{"id":"u5v6w7x8","timestamp":"2026-02-17T22:31:40Z","level":"INFO","request_id":"req-2b55","message":"Worker #9: Job 'Cleanup' completed in 87ms"}
