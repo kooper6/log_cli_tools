@@ -1,48 +1,55 @@
 require 'optparse'
 require 'json'
+require 'set'
+
+module LogMasker
+  PATTERNS = {
+    timestamp: /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z?/,
+    guid:      /[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}/,
+    ip:        /\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/,
+    hex:       /0x[a-fA-F0-9]+|[a-fA-F0-9]{8,}/,
+    number:    /\d+/
+  }.freeze
+
+  def mask(text)
+    return "" if text.nil?
+    res = text.dup
+    PATTERNS.each {|label, reg| res.gsub!(reg, "<#{label.upcase}>") }
+    res.downcase.strip
+  end
+end
+
 
 class LogEntry
-  attr_reader :raw_data, :message, :template
+  include LogMasker
+  attr_reader :message, :template, :words_set
   
   def initialize(line)
-    @raw_data = JSON.parse(line)
-    @message = @raw_data['message'] || ""
-    @template = normalize(@message)
-  rescue JSON::ParserError
-    @message = line.strip
-    @template = normalize(@message)
-  end
-
-  def level
-    @raw_data['level'] || 'UNKNOWN'
-  end
-
-
-
-  private
-  
-  def normalize(text)
-    text.gsub(/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/, '<IP>')
-        .gsub(/0x[a-fA-F0-9]+/, '<HEX>')
-        .gsub(/\d+/, '<NUM>')
-        .downcase.strip
+    data = JSON.parse(line) rescue {'message' => line}
+    @message = data['message'] || line
+    @template = mask(@message)
+    
+    @words_set = @template.split.to_set
   end
 end
 
 class Cluster
-  attr_reader :representative, :entries
+  attr_reader :representative, :count
 
-  def initialize(first_entry)
-    @representative = first_entry
-    @entries = [first_entry]
+  def initialize(entry)
+    @representative = entry
+    @count = 1
   end
 
-  def add(entry)
-    @entries << entry
+  def add!
+    @count += 1
   end
 
-  def size
-    @entries.size
+  def similarity_with(other_entry)
+    intersection = (@representative.words_set & other_entry.words_set).size
+    union = (@representative.words_set | other_entry.words_set).size
+    return 0.0 if union.zero?
+    intersection.to_f / union
   end
 end
 
@@ -54,35 +61,21 @@ class Deduplicator
   
   def process(file_path)
     File.foreach(file_path) do |line|
+      next if line.strip.empty?
       entry = LogEntry.new(line)
-      match_found = false
 
-    @clusters.each do |cluster|
-      if similarity(entry.template, cluster.representative.template) >= @threshold
-        cluster.add(entry)
-        match_found = true
-        break
+      match = @clusters.find {|c| c.similarity_with(entry) >= @threshold}
+      
+      if match
+        match.add!
+      else
+        @clusters << Cluster.new(entry)
       end
-    end
-    
-    @clusters << Cluster.new(entry) unless match_found
     end
     @clusters
   end
-
-  private
-
-  def similarity(str1, str2)
-    words1 = str1.split
-    words2 = str2.split
-    
-    intersection = (words1 & words2).size
-    union = (words1 | words2).size
-    
-    return 0.0 if union == 0 
-    intersection.to_f / union
-  end
 end
+
 
 # --- CLI interface ---
 
@@ -106,10 +99,9 @@ results = engine.process(file_path)
 
 puts "\n deduplication result "
 
-results.sort_by(&:size).reverse.each do |cluster|
- puts "%-8d | %-10s | %s" % [
-    cluster.size, 
-    cluster.representative.level, 
+results.sort_by(&:count).reverse.each do |cluster|
+ puts "%-8d | %s" % [
+    cluster.count, 
     cluster.representative.template
   ] 
   #puts "[#{cluster.size} occurrences] #{cluster.representative.content.strip}"
