@@ -2,6 +2,7 @@
 {"id":"9b2e1f44","timestamp":"2026-02-17T22:30:02Z","level":"INFO","request_id":"req-1a2b","message":"User(id=501) logged in from 192.168.1.15"}
 {"id":"3c4d5e6f","timestamp":"2026-02-17T22:30:03Z","level":"WARN","request_id":"req-9c8d","message":"API_GATEWAY: 404 Not Found on endpoint /v1/resource/0x1a"}
 {"id":"a1b2c3d4","timestamp":"2026-02-17T22:30:04Z","level":"DEBUG","request_id":"req-4e5f","message":"Memory cache hit for key: session_9001"}
+{"id":"e5f6g7h8","timestamp":"2026-02-17T22:30:05Z","level":"INFO","request_id":"req-2b3c","message":"Some crazy exception is happening here, Exception, NullpointerException.javalang"}
 {"id":"e5f6g7h8","timestamp":"2026-02-17T22:30:05Z","level":"INFO","request_id":"req-2b3c","message":"Worker #1: Job 'EmailSync' completed in 450ms"}
 {"id":"i9j0k1l2","timestamp":"2026-02-17T22:30:06Z","level":"ERROR","request_id":"req-8f2b","message":"ConnectionTimeout: Database 'db_prod' unreachable at 10.0.0.5:5432"}
 {"id":"m3n4o5p6","timestamp":"2026-02-17T22:30:07Z","level":"INFO","request_id":"req-1a2c","message":"User(id=212) logged in from 192.168.1.88"}
